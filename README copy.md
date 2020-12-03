@@ -65,7 +65,7 @@
 
 ### 方法二：云服务器、腾讯云函数等等
 
- - 可以精确控制任务运行时间，有三种办法：[docker办法一](https://github.com/qukaiyuan/JD-scripts/tree/master/docker)、[docker办法二（和本地安装Node.js有点类似）](https://github.com/EvineDeng/jd-base)、[docker办法三](https://github.com/chinnkarahoi/jd-scripts-docker)
+ - 可以精确控制任务运行时间，有三种办法：[docker办法一](https://github.com/qukaiyuan/JD_AUTO_SCRIPT/tree/master/docker)、[docker办法二（和本地安装Node.js有点类似）](https://github.com/EvineDeng/jd-base)、[docker办法三](https://github.com/chinnkarahoi/jd-scripts-docker)
 =======
   - 需自行有云服务器，云函数等
   - 腾讯云云函数 [快速部署教程](tencentscf.md)（免费）
@@ -85,11 +85,11 @@
 
 #### 注：以上三种运行机制都是Node.js，故您需仔细阅读下面几点
 
-  - 如果使用方法一与方法二，需自行提供京东cookie填写到 [jdCookie.js](https://github.com/qukaiyuan/JD-scripts/blob/master/jdCookie.js) 里面
+  - 如果使用方法一与方法二，需自行提供京东cookie填写到 [jdCookie.js](https://github.com/qukaiyuan/JD_AUTO_SCRIPT/blob/master/jdCookie.js) 里面
 
-  - 方法三京东cookie不要！不要！不要！填写到 [jdCookie.js](https://github.com/qukaiyuan/JD-scripts/blob/master/jdCookie.js) 里面
+  - 方法三京东cookie不要！不要！不要！填写到 [jdCookie.js](https://github.com/qukaiyuan/JD_AUTO_SCRIPT/blob/master/jdCookie.js) 里面
    
-  - 获取京东cookie教程可参考 [浏览器获取京东cookie教程](https://github.com/qukaiyuan/JD-scripts/blob/master/backUp/GetJdCookie.md) , [插件获取京东cookie教程](https://github.com/qukaiyuan/JD-scripts/blob/master/backUp/GetJdCookie2.md)
+  - 获取京东cookie教程可参考 [浏览器获取京东cookie教程](https://github.com/qukaiyuan/JD_AUTO_SCRIPT/blob/master/backUp/GetJdCookie.md) , [插件获取京东cookie教程](https://github.com/qukaiyuan/JD_AUTO_SCRIPT/blob/master/backUp/GetJdCookie2.md)
 
   - 方法三Docker安装Cookie请见各自的说明。
 
