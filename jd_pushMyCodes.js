@@ -47,7 +47,8 @@ const codeArr = [
   { type: 'farm', code: '49a95a4bcd104c568ba2852c50a7ca2a'},
   { type: 'farm', code: '35e3300dd0164c0babfbf841bd1e2baa'},
   { type: 'pet', code: 'MTAxODc2NTEzNTAwMDAwMDAwMDA3NjcxNw=='},
-  { type: 'pet', code: 'MTAxODcxOTI2NTAwMDAwMDAwNTkyNTk2OQ=='}
+  { type: 'pet', code: 'MTAxODcxOTI2NTAwMDAwMDAwNTkyNTk2OQ=='},
+  { type: 'jxfactory', code: 'aByTSdNHBLuf06a645erLg=='}
 ]
 
 
