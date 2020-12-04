@@ -77,7 +77,7 @@ async function sendCodes(item) {
           console.log(`【状态】${data.code}\n`);
           console.log(`【Message】${data.message}\n`);
 
-          await notify.sendNotify(`【type】${item.type}\n`, `【Message】${data.message}\n`);
+          notify.sendNotify(`【type】${item.type}\n`, `【Message】${data.message}\n`);
         }
       } catch (e) {
         $.logErr(e, resp);
