@@ -37,7 +37,11 @@ if ($.isNode()) {
   cookiesArr.push(...[$.getdata('CookieJD'), $.getdata('CookieJD2')]);
 }
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
+<<<<<<< HEAD
 $.newShareCodes = ['P04z54XCjVUnIaW5m9cZ2SqiXwel1rZoosGmAo', 'P04z54XCjVUnIaW5nRNUzykgCoV11MFgd8', 'P04z54XCjVUnIaW5m9cZ2T72HlMlh1oIWwjPSU', 'P04z54XCjVUnIaW5m9cZ2X923wfkbUL5oN_fPQ', 'P04z54XCjVUnIaW5jQAAWbx2X9OnYAYJJY']; // 目前是自己的两个账号的码
+=======
+$.newShareCodes = [`P04z54XCjVUnIaW5nJcXCCyoR8C6p8txXBH`, 'P04z54XCjVUnIaW5m9cZ2T6jChKki0Hfndla5k', 'P04z54XCjVUnIaW5u2ak7ZCdan1BT0NlbBGZ1-rnMYj', 'P04z54XCjVUnIaW5m9cZ2ariXVJwI64DaVTNXQ'];
+>>>>>>> f6c66c9d0b2fc486e8376440ca5042c8eaed2281
 !(async () => {
   if (!cookiesArr[0]) {
     $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/', {"open-url": "https://bean.m.jd.com/"});
