@@ -28,7 +28,7 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let jdNotify = true;//是否关闭通知，false打开通知推送，true关闭通知推送
 const randomCount = $.isNode() ? 20 : 5;
-const inviteCodes = [`40cd108f-9eed-4897-b795-45a5b221cd6b`,'9d4262a5-1a02-4ae7-8a86-8d070d531464'];
+const inviteCodes = [`9cb57c2a-c300-4bd8-ad9d-83f4c891e9f8`,'3b060eec-6136-450f-ad33-f17cfe051fff'];
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '', message;
 if ($.isNode()) {
