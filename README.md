@@ -120,7 +120,6 @@
 
  3、box可以支持多账号
 
-<<<<<<< HEAD
 ```
 # QuantumultX
 
@@ -178,10 +177,6 @@
 #京东星推官
 2 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_xtg.js, tag=京东星推官, enabled=true
 ```
-=======
-### 赞赏码(开发维护不易,请赏杯茶水费)
-<div align=center><img width="250" height="250" src="https://raw.githubusercontent.com/lxk0301/jd_scripts/master/icon/thanks.jpg"/></div>
->>>>>>> a11b949203a5a855eb1b8194cce6fca3bbcd04f7
 
 ### 特别感谢(排名不分先后)：
 * [@NobyDa](https://github.com/NobyDa)
