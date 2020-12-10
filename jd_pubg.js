@@ -234,7 +234,7 @@ function taskList(get=1) {
             }
             for (let i = 0; i< vo.shopList.length;++i){
               let shop = vo.shopList[i]
-              if(shop.shopStatus === 0) {
+              if(shop.shopStatus === 0 || shop.shopStatus === 1) {
                 console.log(`【关注店铺】去关注店铺 ${shop.shopName}`)
                 await doTask(`starId=PUBG&type=shop&id=${shop.shopId}&status=1`)
                 await $.wait(10000)
