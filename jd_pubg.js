@@ -174,7 +174,7 @@ const inviteCodes = ['65561ad5-af72-4d1c-a5be-37b3de372b67@2d5f579d-e6d1-479e-93
     })
 async function jdHealth() {
   $.bean = 0
-  await helpFriends();
+  // await helpFriends();
   await taskList();
   message += `已做完任务，共计获得京豆 ${$.bean}\n`
   await showMsg();
@@ -208,7 +208,7 @@ function taskList(get=1) {
           if (safeGet(data)) {
             data = JSON.parse(data);
             let vo = data.data[0]
-            console.log(`您的${$.name}好友助力码为：${vo.shareId}`)
+            if (vo.shareId) console.log(`您的${$.name}好友助力码为：${vo.shareId}`)
             for (let i = 0; i< vo.venueList.length;++i){
               let venue = vo.venueList[i]
               if(venue.venueStatus === 1) {
