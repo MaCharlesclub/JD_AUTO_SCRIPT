@@ -6,7 +6,8 @@ name: jd_live_redrain
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48,52,56,59 0,2,4,6,8,10,11,12,14,15 * * *'
+    - cron: '0 0,9,11,13,15,17,19,20,21,23 * * *'
+    - timezone: "Asia/Shanghai"
   watch:
     types: [started]
   repository_dispatch:
@@ -43,3 +44,4 @@ jobs:
           DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
           DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
           IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
+          # TZ: Asia/Shanghai
