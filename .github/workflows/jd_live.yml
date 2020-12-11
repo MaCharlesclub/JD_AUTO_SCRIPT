@@ -6,8 +6,7 @@ name: jd_live
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10-20/5 12 * * *'
-    - timezone: "Asia/Shanghai"
+    - cron: '10-20/5 4 * * *'
   watch:
     types: [started]
   repository_dispatch:
