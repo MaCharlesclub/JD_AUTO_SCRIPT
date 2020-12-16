@@ -44,8 +44,8 @@ if ($.isNode()) {
 }
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
 const inviteCodes = [
-  `AUWE5m__EzWEKCWSu334Zkg`,
-  `ASnANw_HNm2pKXSatnw`
+  `AUWE5m__EzWEKCWSu334Zkg@AUWE5m66VyDMLWmSpi3QblA@AUWE5mqiWzWAMDjSpjH8fxg@ACj1fmaSUzjEADWWXnQ`,
+  `ASnANw_HNm2pKXSatnw@AUWE5m66VyDMLWmSpi3QblA@AUWE5mqiWzWAMDjSpjH8fxg@ACj1fmaSUzjEADWWXnQ`
 ]
 !(async () => {
   $.tuanList = []
