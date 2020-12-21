@@ -50,7 +50,7 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 const codeApi = 'http://api.turinglabs.net/api/v1/jd/'
 const codeApi2 = 'https://code.chiang.fun/api/v1/jd/'
 const codeArr = [
-  /* { type: 'ddfactory', code: 'P04z54XCjVWnYaS5nRNUzykgCoV1zFeT4o', api: codeApi },
+  { type: 'ddfactory', code: 'P04z54XCjVWnYaS5nRNUzykgCoV1zFeT4o', api: codeApi },
   { type: 'ddfactory', code: 'P04z54XCjVWnYaS5m9cZ2SqiXwelyODJ-3Utwg', api: codeApi },
   { type: 'bean', code: 'l7wp3ujmrq2uxr2uhviqc6ncduwpccvpesym3pi', api: codeApi },
   { type: 'bean', code: 'e7lhibzb3zek3wvznwm6szetubfzjw3xouoz6dy', api: codeApi },
@@ -59,7 +59,7 @@ const codeArr = [
   { type: 'pet', code: 'MTAxODc2NTEzNTAwMDAwMDAwMDA3NjcxNw==', api: codeApi },
   { type: 'pet', code: 'MTAxODcxOTI2NTAwMDAwMDAwNTkyNTk2OQ==', api: codeApi },
   { type: 'jxfactory', code: 'aByTSdNHBLuf06a645erLg==', api: codeApi },
-  { type: 'jxfactory', code: 'KTSdls8lA2sDl8_62GzlVg==', api: codeApi }, */
+  { type: 'jxfactory', code: 'KTSdls8lA2sDl8_62GzlVg==', api: codeApi },
   { type: 'jdzz', code: 'ASnANw_HNm2pKXSatnw', api: codeApi2 },
   { type: 'jdzz', code: 'AUWE5m__EzWEKCWSu334Zkg', api: codeApi2 }
 ]
